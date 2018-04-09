@@ -16,15 +16,15 @@ switch (userInput) {
   tweets();
   break;
 
-case "movie-this":
+  case "movie-this":
   movie();
   break;
 
-case "spotify-this-song":
+  case "spotify-this-song":
   song();
   break;
 
-case "do-what-it-says":
+  case "do-what-it-says":
   doStuff();
   break;
 }
@@ -48,15 +48,15 @@ inquirer
     tweets();
     break;
   
-  case "movie-this":
+    case "movie-this":
     movie();
     break;
   
-  case "spotify-this-song":
+    case "spotify-this-song":
     song();
     break;
   
-  case "do-what-it-says":
+    case "do-what-it-says":
     doStuff();
     break;
   }
